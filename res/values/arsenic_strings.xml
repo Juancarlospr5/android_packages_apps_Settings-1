@@ -138,4 +138,10 @@
     <string name="notification_battery_charge_level_seek_bar">Battery Level</string>
     <string name="notification_battery_charge_level_ringtone">Ringtone</string>
     <string name="notification_battery_charge_level_silent">Silent</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">back</string>
+    <string name="security_settings_fingerprint_sensor_location_front">front</string>
+    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
+    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 </resources>
