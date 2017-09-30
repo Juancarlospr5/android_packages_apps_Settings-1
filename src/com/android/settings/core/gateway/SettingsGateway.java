@@ -132,6 +132,8 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.android.settings.arsenic.fragments.HeadsUpSettings;
+
 public class SettingsGateway {
 
     /**
@@ -252,7 +254,13 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
+<<<<<<< HEAD
             DataUsageList.class.getName()
+=======
+            DataUsageList.class.getName(),
+			LiquidLoungeSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
+>>>>>>> 7d8a8ef... settings: activity to launch headsup settings
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

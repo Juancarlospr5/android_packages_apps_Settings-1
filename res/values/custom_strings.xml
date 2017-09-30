@@ -46,4 +46,7 @@
     <string name="value_equals_default">auto</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
 
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Heads up</string>
+
 </resources>
