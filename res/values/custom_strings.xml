@@ -54,4 +54,7 @@
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 </resources>
