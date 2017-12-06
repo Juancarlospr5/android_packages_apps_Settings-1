@@ -13,4 +13,8 @@
 	<string name="arsenic_about_devs">Arsenic</string>
 	<string name="arsenic_about_dev_title">JuanCarlos5</string>
 	<string name="arsenic_about_dev_summary">Founder</string>
+
+    <!-- Dev settings -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
 </resources>
