@@ -125,4 +125,15 @@
     <string name="lockscreen_battery_info_title">Información de la batería</string>
     <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
 
+    <!-- Color manager -->
+    <string name="color_manager_title">Administrar Color</string>
+    <string name="color_manager_summary">Cambiar los colores del sistema con varios modos de tema</string>
+    <string name="theme_auto_title">Automatico</string>
+    <string name="theme_auto_title_summary">Temas del sistema basados en fondos de pantalla seleccionados</string>
+    <string name="theme_light_title">Claro</string>
+    <string name="theme_light_title_summary">Temas del sistema a blanco</string>
+    <string name="theme_dark_title">Oscuro</string>
+    <string name="theme_dark_title_summary">Temas del sistema a gris oscuro</string>
+    <string name="device_accent_title">Acento del dispositivo</string>
+
  </resources>
