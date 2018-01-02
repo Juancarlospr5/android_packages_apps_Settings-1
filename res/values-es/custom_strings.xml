@@ -134,6 +134,8 @@
     <string name="theme_light_title_summary">Temas del sistema a blanco</string>
     <string name="theme_dark_title">Oscuro</string>
     <string name="theme_dark_title_summary">Temas del sistema a gris oscuro</string>
+    <string name="theme_black_title">Negro</string>
+    <string name="theme_black_title_summary">Temas del sistema a negro</string>
     <string name="device_accent_title">Acento del dispositivo</string>
 
  </resources>
