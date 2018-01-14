@@ -67,6 +67,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
     private static final String KEY_RINGTONE = "ringtone";
     private static final String KEY_IMPORTANCE = "importance";
     private static final String KEY_ADVANCED = "advanced";
+    private static final String KEY_LIGHTS_CAT = "light_customization";
 
     private Preference mImportance;
     private RestrictedSwitchPreference mLights;
@@ -79,6 +80,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
     private NotificationChannelGroup mChannelGroup;
     private EntityHeaderController mHeaderPref;
     private PreferenceGroup mAdvanced;
+    private PreferenceGroup mLightsCategory;
 
     @Override
     public int getMetricsCategory() {
@@ -147,6 +149,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         setupRingtone();
         setupImportance();
         mAdvanced = (PreferenceGroup) findPreference(KEY_ADVANCED);
+        mLightsCategory = (PreferenceGroup) findPreference(KEY_LIGHTS_CAT);
     }
 
     private void addHeaderPref() {
@@ -463,7 +466,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         } else {
             setVisible(mAdvanced, checkCanBeVisible(NotificationManager.IMPORTANCE_MIN));
             setVisible(mImportance, checkCanBeVisible(NotificationManager.IMPORTANCE_MIN));
-            setVisible(mAdvanced, mLights, checkCanBeVisible(
+            setVisible(mLightsCategory, checkCanBeVisible(
                     NotificationManager.IMPORTANCE_DEFAULT) && canPulseLight());
             setVisible(mVibrate, checkCanBeVisible(NotificationManager.IMPORTANCE_DEFAULT));
             setVisible(mRingtone, checkCanBeVisible(NotificationManager.IMPORTANCE_DEFAULT));
