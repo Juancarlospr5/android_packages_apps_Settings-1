@@ -176,4 +176,8 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
+    <!-- USB mode dialog -->
+    <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
+    <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+
 </resources>
