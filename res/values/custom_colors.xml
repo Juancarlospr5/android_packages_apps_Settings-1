@@ -20,4 +20,8 @@
     <!-- Switchbar background -->
     <color name="switchbar_background_color">?android:attr/colorSecondary</color>
 
+    <!-- Accent picker -->
+    <color name="accent_picker_white_accent">@android:color/white</color>
+    <color name="accent_picker_dark_accent">@android:color/black</color>
+
 </resources>
