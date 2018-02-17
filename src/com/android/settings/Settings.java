@@ -191,7 +191,7 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
-    // LiquidRemix settings
+    // Arsenic settings
 
     public static class HeadsUpSettingsActivity extends SettingsActivity {}
 }
