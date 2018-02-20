@@ -255,7 +255,6 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-	    ArsenicSettings.class.getName(),
             HeadsUpSettings.class.getName(),
     };
 

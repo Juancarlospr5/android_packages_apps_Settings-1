@@ -20,15 +20,16 @@ import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
 
 import com.android.settings.R;
-import com.android.settings.Utils;
+import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-public class ArsenicPreferenceController extends AbstractPreferenceController {
+public class ArsenicVersionPreferenceController extends AbstractPreferenceController
+                implements PreferenceControllerMixin {
 
-    private static final String ARSENIC_VERSION = "arsenic_version";
-    private static final String ARSENIC_PROP = "ro.arsenic.version";
+    private static final String ARSENIC_VERSION = "Arsenic_version";
+    private static final String ARSENIC_PROP = "ro.ARSENIC.version";
 
-    public LiquidVersionPreferenceController(Context context) {
+    public ArsenicVersionPreferenceController(Context context) {
         super(context);
     }
 
