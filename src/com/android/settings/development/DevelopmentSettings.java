@@ -2590,11 +2590,11 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             intent.setClass(mActivity, AppOpsSummaryActivity.class);
             mActivity.startActivity(intent);
             return true;
-
-        if (preference == mWindowAnimationScale ||
+        } else if (preference == mWindowAnimationScale ||
                 preference == mTransitionAnimationScale ||
                 preference == mAnimatorDurationScale) {
             ((AnimationScalePreference) preference).click();
+            return true;
         }
         return false;
     }
