@@ -64,7 +64,8 @@
         <!-- Arsenic About -->
         <Preference
                 android:key="arsenic_about"
-                android:title="@string/arsenic_about_title" />
+                android:title="@string/arsenic_about_title"
+		android:fragment="com.android.settings.arsenic.ArsenicAbout" />
 
         <!-- Device hardware model -->
         <Preference

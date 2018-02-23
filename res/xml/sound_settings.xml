@@ -172,9 +172,10 @@
           android:title="@string/boot_sounds_title" />
 
         <!-- Screenshot sound -->
-        <SwitchPreference
+        <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference
           android:key="screenshot_sounds"
-          android:title="@string/screenshot_sound_title" />
+          android:title="@string/screenshot_sound_title"
+	  android:defaultValue="true" />
 
         <!-- Emergency tone -->
         <DropDownPreference
