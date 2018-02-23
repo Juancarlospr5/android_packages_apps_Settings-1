@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Arsenic Rom -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Arsenic version -->
+	<string name="arsenic_version">Compilación Arsenic</string>
+	<string name="arsenic_build">1</string>
+
+    <!-- Arsenic about -->
+	<string name="arsenic_about_title">Acerca de Arsenic</string>
+	<string name="arsenic_about_info">ROM</string>
+	<string name="arsenic_about_devs">Arsenic</string>
+	<string name="arsenic_about_dev_title">JuanCarlos5</string>
+	<string name="arsenic_about_dev_summary">Desarrollador</string>
+
+    <!-- Dev settings -->
+    <string name="show_dev_already_enabled">No es necesario, la configuración de desarrollo está habilitada de forma predeterminada.</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Desconocido</string>
+
+    <!-- Phone info -->
+    <string name="device_info_title">Información del teléfono</string>
+
+    <!-- Dashboard conditions -->
+    <string name="dashboard_conditions_title">Opciones del panel de ajustes</string>
+    <string name="summary_dashboard_conditions_enabled">Las condiciones en el panel de ajustes están habilitadas</string>
+    <string name="summary_dashboard_conditions_disabled">Las condiciones en el panel de ajustes están deshabilitadas</string>
+
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_suggestions_title">Sugerencias del panel de ajustes</string>
+    <string name="summary_dashboard_suggestions_enabled">Panel de sugerencias habilitado</string>
+    <string name="summary_dashboard_suggestions_disabled">Panel de sugerencias desactivado</string>
+
+    <!-- Scramble layout -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposición de PIN al desbloquear el dispositivo</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquea automáticamente cuando el PIN/contraseña correcta es introducida. Es recomendable que uses un pin menor de 6 dígitos. Si el PIN sobrepasa los 6 dígitos, puedes quedar bloqueado. Haz sido advertido</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Notificaciones LED</string>
+    <string name="custom_light_title">Color de luz</string>
+    <string name="custom_light_on_time_title">Tiempo de encendido de luz durante el pulso de led (ms)</string>
+    <string name="custom_light_off_time_title">Tiempo de apagado de luz durante el pulso de led (ms)"</string>
+    <string name="app_notifications_info_desc">TToque uno de los canales anteriores para configurar color de luz y otras opciones</string>
+    <string name="value_equals_default">def</string>
+    <string name="show_light_on_zen_title">Parpadeo durante No molestar</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_title">Heads up</string>
+    <string name="summary_heads_up_enabled">Las notificaciones emergentes están habilitadas</string>
+    <string name="summary_heads_up_disabled">Las notificaciones emergentes están deshabilitadas</string>
+    <string name="add_heads_up_package">Agregar App</string>
+    <string name="add_heads_up_stoplist_summary">Deshabilitar las notificaciones en estas aplicaciones</string>
+    <string name="add_heads_up_blacklist_summary">Inhabilitar las notificaciones desde estas aplicaciones</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="profile_choose_app">Elige la app</string>
+    <string name="dialog_delete_title">Borrar</string>
+    <string name="dialog_delete_message">Eliminar selección?</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Tiempo de espera</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> segundos</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_5sec">5 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Temporizador de repetición</string>
+    <string name="heads_up_snooze_summary_one_minute">Al deslizar hacia arriba en las notificaciones se pospondrá el aviso de esa aplicación durante 1 minuto</string>
+    <string name="heads_up_snooze_summary">Al deslizar hacia arriba en las notificaciones se pospondrá el aviso de esa aplicación por <xliff:g id="number">%d</xliff:g> minutos</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minutos</string>
+    <string name="heads_up_snooze_10min">10 minutos</string>
+    <string name="heads_up_snooze_15min">15 minutos</string>
+    <string name="heads_up_snooze_20min">20 minutos</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
+
+    <!-- Volume steps -->
+    <string name="volume_steps_title">Niveles de volumen</string>
+    <string name="volume_steps_alarm_title">Intervalos de volumen: Alarma</string>
+    <string name="volume_steps_dtmf_title">Intervalos de volumen: DTMF</string>
+    <string name="volume_steps_music_title">Ajustes de volumen: Música</string>
+    <string name="volume_steps_notification_title">Intervalos de volumen: Notificación</string>
+    <string name="volume_steps_ring_title">Intervalos de volumen: Tono</string>
+    <string name="volume_steps_system_title">Intervalos de volumen: Sistema</string>
+    <string name="volume_steps_voice_call_title">Intervalos de volumen: Llamada</string>
+    <string name="volume_steps_bluetooth_sco_title">Intervalos de volumen: Llamada Bluetooth</string>
+    <string name="volume_steps_reset">Restablecer</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+
+    <!-- Display rotation -->
+    <string name="display_rotation_title">Rotación</string>
+    <string name="display_rotation_disabled">Desactivar</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+
+    <!-- Battery stats -->
+    <string name="menu_stats_reset">Restablecer estadísticas</string>
+    <string name="reset_stats_msg">Las estadísticas del historial de la batería se reiniciarán</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="press_color_to_apply">Presione en un color de abajo para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Establecer</string>
+    <string name="color_default">Predeterminado</string>
+</resources>
