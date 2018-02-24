@@ -121,7 +121,6 @@
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 
-<<<<<<< HEAD
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -136,12 +135,6 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
- </resources>
-=======
-    <!-- Battery tweaks -->
-    <string name="battery_image">Battery image</string>
-    <string name="battery_image_description">Show battery image in status bar</string>
-
     <!-- Root Management -->
     <string name="rootmanagement_title">Root management</string>
     <string name="rootmanagement_dashboard_summary">Manage root access</string>
@@ -154,4 +147,3 @@
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
 
 </resources>
->>>>>>> a32667e... Embed shortcut for root app on the dashboard
