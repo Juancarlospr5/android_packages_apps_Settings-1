@@ -135,8 +135,4 @@
     <string name="lockscreen_battery_info_title">Información de la batería</string>
     <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
 
-    <!-- Root Management -->
-    <string name="rootmanagement_title">Administrar Root</string>
-    <string name="rootmanagement_dashboard_summary">Administrar accesso root</string>
-
  </resources>
