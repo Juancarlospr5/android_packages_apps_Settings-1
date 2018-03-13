@@ -107,16 +107,6 @@
     <string name="volume_steps_7">7</string>
     <string name="volume_steps_5">5</string>
 
-    <!-- Display rotation -->
-    <string name="display_rotation_title">Rotación</string>
-    <string name="display_rotation_disabled">Desactivar</string>
-    <string name="display_rotation_unit">grados</string>
-    <string name="display_rotation_category_title">Modos de rotación</string>
-    <string name="display_rotation_0_title">0 grados</string>
-    <string name="display_rotation_90_title">90 grados</string>
-    <string name="display_rotation_180_title">180 grados</string>
-    <string name="display_rotation_270_title">270 grados</string>
-
     <!-- Battery stats -->
     <string name="menu_stats_reset">Restablecer estadísticas</string>
     <string name="reset_stats_msg">Las estadísticas del historial de la batería se reiniciarán</string>
