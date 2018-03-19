@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.android.settings.arsenic.fragments.HeadsUpSettings;
+import com.android.settings.arsenic.ArsenicSettings;
 
 public class SettingsGateway {
 
@@ -255,6 +256,7 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
+            ArsenicSettings.class.getName(),
             HeadsUpSettings.class.getName(),
     };
 
@@ -294,5 +296,7 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
+            // Arsenic Settings
+            Settings.ArsenicSettingsActivity.class.getName(),
     };
 }
