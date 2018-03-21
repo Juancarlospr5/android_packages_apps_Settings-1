@@ -26,6 +26,12 @@
             android:title="@string/incall_vibration_category"
             android:fragment="com.android.settings.arsenic.NotificationSettings" />
 
+    <!-- HeadsUp Settings --> 
+    <PreferenceScreen
+            android:id="@+id/HeadsUp"
+            android:title="@string/heads_up_title"
+            android:fragment="com.android.settings.arsenic.fragments.HeadsUpSettings" />
+
     <!-- Status bar tweaks         
         <PreferenceScreen
                 android:id="@+id/status_bar_settings"
