@@ -20,6 +20,11 @@
     <PreferenceCategory
         android:title="@string/arsenic_settings_title">
 
+    <!-- Notifications Settings --> 
+    <PreferenceScreen
+            android:id="@+id/incall_vib_options"
+            android:title="@string/incall_vibration_category"
+            android:fragment="com.android.settings.arsenic.NotificationSettings" />
 
     <!-- Status bar tweaks         
         <PreferenceScreen
