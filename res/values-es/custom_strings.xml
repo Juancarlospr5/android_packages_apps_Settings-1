@@ -143,4 +143,12 @@
     <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar en la llamada en espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar al desconectarse</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="status_bar_title">Ajustes barra de estados</string>
+    <string name="statusbar_items_title">Iconos de barra de estado</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Color de advertencia</string>
+    <string name="battery_saver_color_summary">Habilitar el estado naranja - barras de navegación cuando se activa el ahorro de batería</string>
  </resources>

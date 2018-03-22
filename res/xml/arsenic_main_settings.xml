@@ -32,12 +32,11 @@
             android:title="@string/heads_up_title"
             android:fragment="com.android.settings.arsenic.fragments.HeadsUpSettings" />
 
-    <!-- Status bar tweaks         
+    <!-- Status bar tweaks -->         
         <PreferenceScreen
                 android:id="@+id/status_bar_settings"
                 android:title="@string/status_bar_title"
-		android:fragment="com.android.settings.arsenic.StatusBar"
-                /> -->
+		android:fragment="com.android.settings.arsenic.StatusBar" />
 
     <!-- QS Panel 
     <PreferenceScreen

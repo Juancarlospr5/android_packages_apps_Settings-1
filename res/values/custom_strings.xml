@@ -152,4 +152,12 @@
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="status_bar_title">Statusbar Tweaks</string>
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
 </resources>
