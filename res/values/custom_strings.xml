@@ -130,6 +130,13 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Lockscreen -->
+    <string name="arsenic_lockscreen_title">Lockscreen</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Show power menu lockscreen</string>
+    <string name="lockscreen_power_menu_disabled_summary">This option will only disable the power menu on secure lockscreens</string>
+
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>

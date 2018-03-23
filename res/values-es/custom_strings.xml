@@ -125,6 +125,13 @@
     <string name="lockscreen_battery_info_title">Información de la batería</string>
     <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
 
+    <!-- Lockscreen -->
+    <string name="arsenic_lockscreen_title">Pantalla de Bloqueo</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en la pantalla de bloqueo</string>
+    <string name="lockscreen_enable_power_menu_summary">Esta opción solo desactivará el menú de apagado en las pantallas de bloqueo con seguridad establecida</string>
+
     <!-- Color manager -->
     <string name="color_manager_title">Administrar Color</string>
     <string name="color_manager_summary">Cambiar los colores del sistema con varios modos de tema</string>
