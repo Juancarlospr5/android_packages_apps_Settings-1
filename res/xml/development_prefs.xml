@@ -46,7 +46,7 @@
                 android:targetClass="com.android.settings.SetFullBackupPassword" />
     </Preference>
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+    <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference
         android:key="show_usb_mode_dialog"
         android:title="@string/show_usb_mode_dialog_title"
         android:summary="@string/show_usb_mode_dialog_summary"
