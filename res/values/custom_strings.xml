@@ -180,4 +180,9 @@
     <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
     <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
 
+    <!-- QS haptic feedback -->
+    <string name="quicksettings_title">Quick settings</string>
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+
 </resources>
