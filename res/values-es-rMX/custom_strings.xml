@@ -125,6 +125,13 @@
     <string name="lockscreen_battery_info_title">Información de la batería</string>
     <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
 
+    <!-- Lockscreen -->
+    <string name="arsenic_lockscreen_title">Pantalla de Bloqueo</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en la pantalla de bloqueo</string>
+    <string name="lockscreen_enable_power_menu_summary">Esta opción solo desactivará el menú de apagado en las pantallas de bloqueo con seguridad establecida</string>
+
     <!-- Color manager -->
     <string name="color_manager_title">Administrar Color</string>
     <string name="color_manager_summary">Cambiar los colores del sistema con varios modos de tema</string>
@@ -151,4 +158,26 @@
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Color de advertencia</string>
     <string name="battery_saver_color_summary">Habilitar el estado naranja - barras de navegación cuando se activa el ahorro de batería</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Brillo</string>
+    <string name="night_brightness_value_title">Brillo bajo en luz nocturna</string>
+    <string name="night_bright_disabled">Desactivado</string>
+    <string name="night_bright_minimum">Brillo mínimo</string>
+    <string name="night_bright_low">Brillo bajo</string>
+    <string name="night_bright_medium">Brillo medio</string>
+
+    <!-- USB mode dialog -->
+    <string name="show_usb_mode_dialog_title">Mostrar diálogo del modo USB</string>
+    <string name="show_usb_mode_dialog_summary">Mostrar cuadro de diálogo para elegir qué modo USB usar cuando se conecta a una computadora</string>
+
+    <!-- QS haptic feedback -->
+    <string name="quicksettings_title">Ajustes Rápidos</string>
+    <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al tocar los ajustes rápidos</string>
+
+    <!-- fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar en éxito de la autenticación de huella digital</string>
+
  </resources>
