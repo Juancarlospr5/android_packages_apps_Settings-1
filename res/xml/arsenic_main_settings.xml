@@ -38,11 +38,11 @@
                 android:title="@string/status_bar_title"
 		android:fragment="com.android.settings.arsenic.StatusBar" />
 
-    <!-- QS Panel 
+    <!-- QS Panel -->
     <PreferenceScreen
             android:id="@+id/qs_customizations"
-            android:title="@string/arsenic_qs_title"
-            android:fragment="com.android.settings.arsenic.QsPanel" /> -->
+            android:title="@string/quicksettings_title"
+            android:fragment="com.android.settings.arsenic.QuickSettings" />
 
     <!-- Lockscreen -->
     <PreferenceScreen
