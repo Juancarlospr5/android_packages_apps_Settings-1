@@ -171,6 +171,13 @@
           android:key="boot_sounds"
           android:title="@string/boot_sounds_title" />
 
+        <!-- Launch music player when headset is connected -->
+        <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference
+          android:key="headset_connect_player"
+          android:title="@string/headset_connect_player_title"
+          android:summary="@string/headset_connect_player_summary"
+          android:defaultValue="false" />
+
         <!-- Screenshot sound -->
         <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference
           android:key="screenshot_sounds"
