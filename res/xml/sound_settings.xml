@@ -140,6 +140,12 @@
           android:key="charging_sounds_settings"
           lineage:replacesKey="charging_sounds" />
 
+	<!-- Launch music player when headset is connected -->         
+        <PreferenceScreen
+                android:id="@+id/headset_connect_player"
+                android:title="@string/headset_connect_player_title"
+		android:fragment="com.android.settings.arsenic.SoundSettings" />
+
         <!-- Docking sounds -->
         <SwitchPreference
           android:key="docking_sounds"
@@ -170,13 +176,6 @@
         <SwitchPreference
           android:key="boot_sounds"
           android:title="@string/boot_sounds_title" />
-
-        <!-- Launch music player when headset is connected -->
-        <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference
-          android:key="headset_connect_player"
-          android:title="@string/headset_connect_player_title"
-          android:summary="@string/headset_connect_player_summary"
-          android:defaultValue="false" />
 
         <!-- Screenshot sound -->
         <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference

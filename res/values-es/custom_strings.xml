@@ -180,4 +180,13 @@
     <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
     <string name="fprint_sucess_vib_summary">Vibrar en éxito de la autenticación de huella digital</string>
 
- </resources>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Abrir aplicación de música al conectar auriculares</string>
+    <string name="headset_connect_player_disabled">Desactivado</string>
+    <string name="headset_connect_player_wired">Cuando están conectados auriculares con cable</string>
+    <string name="headset_connect_player_bt_no_carkit">Cuando están conectados auriculares Bluetooth (no hay kit de coche)</string>
+    <string name="headset_connect_player_bt">Cuando están conectados auriculares Bluetooth</string>
+    <string name="headset_connect_player_both_no_carkit">Cuando están conectados auriculares con cable o Bluetooth (no hay kit de coche)</string>
+    <string name="headset_connect_player_both">Cuando están conectados auriculares con cable o Bluetooth</string>
+
+</resources>
