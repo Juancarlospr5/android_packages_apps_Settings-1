@@ -218,5 +218,9 @@
     <string name="style_disabled_summary">Custom header image is OFF</string>
     <string name="header_provider_disabled">Disabled</string>
     <string name="custom_header_title">Custom header image</string>
+    <string name="file_header_select_title">Select image</string>
+    <string name="file_header_select_summary">Select custom image</string>
+    <string name="file_header_provider_title">Image</string>
+    <string name="file_header_provider" translatable="false">file</string>
 
 </resources>
