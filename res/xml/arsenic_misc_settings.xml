@@ -22,6 +22,11 @@
         android:title="@string/alarm_blocker"
         android:fragment="com.android.settings.arsenic.AlarmBlocker" />
 
+    <Preference
+        android:id="@+id/wakelock_blocker"
+        android:title="@string/wakelock_blocker_title"
+        android:fragment="com.android.settings.arsenic.WakeLockBlocker" />
+
     <ListPreference
         android:key="pref_scrollingcache"
         android:dialogTitle="@string/pref_scrollingcache_title"
