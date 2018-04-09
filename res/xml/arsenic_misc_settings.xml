@@ -17,13 +17,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_title">
 
-	
+    <Preference
+        android:id="@+id/alarm_blocker"
+        android:title="@string/alarm_blocker"
+        android:fragment="com.android.settings.arsenic.AlarmBlocker" />
+
     <ListPreference
         android:key="pref_scrollingcache"
         android:dialogTitle="@string/pref_scrollingcache_title"
         android:title="@string/pref_scrollingcache_title"
         android:summary="@string/pref_scrollingcache_summary"
         android:entries="@array/entries_scrollingcache"
-        android:entryValues="@array/values_scrollingcache" />	
+        android:entryValues="@array/values_scrollingcache" />
 
 </PreferenceScreen>
