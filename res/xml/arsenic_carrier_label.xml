@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 Nitrogen Project
+<!--
+     Copyright (C) 2018 PureFusionOS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -11,18 +12,20 @@
      limitations under the License.
 -->
 <PreferenceScreen
+
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/status_bar_title"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <ListPreference
+        android:key="status_bar_show_carrier"
+        android:title="@string/show_carrier_title"
+        android:entries="@array/carrier_label_entries"
+        android:entryValues="@array/carrier_label_values"
+        android:defaultValue="1" />
 
     <Preference
-        android:key="carrier_label"
-        android:fragment="com.android.settings.arsenic.CarrierLabel"
-        android:title="@string/carrier_label_title" />	
+        android:key="custom_carrier_label"
+        android:title="@string/custom_carrier_label_title"
+        android:dialogTitle="@string/custom_carrier_label_explain" />
 
-    <com.android.settings.arsenic.preferences.SystemSettingSwitchPreference
-            android:key="battery_save_mode_color"
-            android:title="@string/battery_saver_color_title"
-            android:summary="@string/battery_saver_color_summary"
-            android:defaultValue="false" />
 </PreferenceScreen>
