@@ -63,6 +63,11 @@
                 <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
         </Preference>
 
+        <!-- Arsenic About -->
+        <Preference
+                android:key="arsenic_about"
+                android:title="@string/arsenic_about_title" />
+
         <!-- Device hardware model -->
         <Preference
                 android:key="device_model"
