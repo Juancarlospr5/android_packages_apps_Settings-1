@@ -237,6 +237,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 return true;
             }
         });
+    }
 
     private void showLedPreview() {
         if (mChannel.shouldShowLights()) {

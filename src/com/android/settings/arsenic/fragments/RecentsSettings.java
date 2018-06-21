@@ -67,7 +67,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class RecentsSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener, DialogInterface.OnDismissListener {
+        OnPreferenceChangeListener {
 
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
     private static final String IMMERSIVE_RECENTS = "immersive_recents";

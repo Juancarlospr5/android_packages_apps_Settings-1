@@ -68,6 +68,10 @@
     <string name="hide_from_recents_add_app">Add App</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
 
+    <!-- Recents panel -->
+    <string name="recents_title">Recents panel</string>
+    <string name="recents_summary">Position clear button and some immersive style</string>
+
     <!-- Custom light color -->
     <string name="light_customization">Led light notification</string>
     <string name="custom_light_title">Light color</string>
@@ -134,6 +138,16 @@
     <string name="dev_advanced_settings_title">@string/advanced_section_header</string>
     <string name="dev_advanced_settings_summary">For the experienced user</string>
     <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
 
     <!-- USB mode dialog -->
     <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>

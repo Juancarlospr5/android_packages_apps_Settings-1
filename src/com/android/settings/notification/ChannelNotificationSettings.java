@@ -305,6 +305,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
                 return true;
             }
         });
+    }
 
     private void showLedPreview() {
         if (mChannel.shouldShowLights()) {

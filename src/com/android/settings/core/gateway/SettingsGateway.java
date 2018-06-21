@@ -300,6 +300,6 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             // Arsenic Settings
             Settings.ArsenicSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName()
     };
 }
