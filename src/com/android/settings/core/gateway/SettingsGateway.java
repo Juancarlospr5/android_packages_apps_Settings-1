@@ -140,6 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.arsenic.settings.ArsenicSettings;
 import com.arsenic.settings.fragments.HeadsUpSettings;
+import com.arsenic.settings.fragments.Buttons;
 
 public class SettingsGateway {
 
@@ -267,7 +268,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             ArsenicSettings.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            Buttons.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
