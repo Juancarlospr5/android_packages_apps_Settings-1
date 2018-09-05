@@ -51,4 +51,6 @@
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
 
+    <!-- Android debugging over network -->
+    <string name="adb_over_network_disallowed_error">ERROR: ADB over network can only be enabled when connected to a Wi\u2011Fi or USB network!</string>
 </resources>
