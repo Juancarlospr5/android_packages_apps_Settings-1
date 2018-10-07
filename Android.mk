@@ -21,6 +21,9 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../ArsenicSettings/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartNavSettings/src)
+
+LOCAL_FULL_LIBS_MANIFEST_FILES += $(LOCAL_PATH)/AndroidManifest-SmartNav.xml
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     $(ANDROID_SUPPORT_DESIGN_TARGETS) \
@@ -50,7 +53,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     org.lineageos.platform.internal
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    packages/apps/ArsenicSettings/res
+    packages/apps/ArsenicSettings/res \
+    packages/apps/SmartNavSettings/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
