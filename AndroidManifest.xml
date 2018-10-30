@@ -3609,6 +3609,10 @@
                 android:value="com.arsenic.settings.fragments.PieSettings" />
         </activity>
 
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.arsenic.settings.fragments.gestures.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.arsenic.settings.fragments.gestures.GestureAnywhereCreateGestureActivity" /> 
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
