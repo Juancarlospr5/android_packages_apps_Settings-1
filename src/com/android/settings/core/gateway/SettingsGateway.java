@@ -151,7 +151,6 @@ import com.arsenic.settings.fragments.Interface;
 import com.arsenic.settings.fragments.Navigation;
 import com.arsenic.settings.fragments.ScreenStateToggles;
 import com.arsenic.settings.fragments.SmartPixels;
-import com.arsenic.settings.fragments.Weather;
 import com.arsenic.settings.fragments.ui.DozeFragment;
 import com.arsenic.settings.fragments.PieSettings;
 
@@ -289,7 +288,6 @@ public class SettingsGateway {
             AmbientPlaySettings.class.getName(),
             Navigation.class.getName(),
             SmartPixels.class.getName(),
-            Weather.class.getName(),
             Display.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),
