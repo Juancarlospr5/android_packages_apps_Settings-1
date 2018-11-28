@@ -155,7 +155,6 @@ import com.arsenic.settings.fragments.Interface;
 import com.arsenic.settings.fragments.ScreenStateToggles;
 import com.arsenic.settings.fragments.SmartPixels;
 import com.arsenic.settings.fragments.ui.DozeFragment;
-import com.arsenic.settings.fragments.PieSettings;
 
 public class SettingsGateway {
 
@@ -295,7 +294,6 @@ public class SettingsGateway {
             ScreenStateToggles.class.getName(),
             DisplayRotation.class.getName(),
             AmbientPlayHistory.class.getName(),
-            PieSettings.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
