@@ -34,6 +34,7 @@ import android.os.Message;
 import android.os.SystemProperties;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.support.v4.content.res.TypedArrayUtils;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
@@ -421,7 +422,9 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
         private CompoundButton mSwitch;
 
         public SimEnablerPreference(Context context, SubscriptionInfo sir, int slotId) {
-            super(context, sir, slotId);
+            super(context, null, TypedArrayUtils.getAttr(context,
+                    android.support.v7.preference.R.attr.checkBoxPreferenceStyle,
+                    android.R.attr.checkBoxPreferenceStyle), sir, slotId);
             setWidgetLayoutResource(R.layout.custom_sim_switch);
         }
 
