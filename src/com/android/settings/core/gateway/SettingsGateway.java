@@ -151,7 +151,6 @@ import com.arsenic.settings.fragments.Display;
 import com.arsenic.settings.fragments.ExpandedDesktopPreferenceFragment;
 import com.arsenic.settings.fragments.Interface;
 import com.arsenic.settings.fragments.ScreenStateToggles;
-import com.arsenic.settings.fragments.SmartPixels;
 import com.arsenic.settings.fragments.ui.DozeFragment;
 
 public class SettingsGateway {
@@ -285,7 +284,6 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             Interface.class.getName(),
             DozeFragment.class.getName(),
-            SmartPixels.class.getName(),
             Display.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),

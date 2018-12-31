@@ -78,6 +78,12 @@
         lineage:replacesKey="auto_rotate"
         lineage:requiresFeature="android.hardware.sensor.accelerometer" />
 
+	<Preference
+        android:key="expanded_desktop"
+        android:title="@string/expanded_desktop_pref_title"
+        android:summary="@string/expanded_desktop_pref_summary"
+        android:fragment="com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment" />
+
     <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
