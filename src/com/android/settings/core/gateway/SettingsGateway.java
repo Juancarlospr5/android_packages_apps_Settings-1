@@ -144,6 +144,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+<<<<<<< HEAD
 import com.arsenic.settings.ArsenicSettings;
 import com.arsenic.settings.fragments.HeadsUpSettings;
 import com.arsenic.settings.fragments.Buttons;
@@ -152,6 +153,7 @@ import com.arsenic.settings.fragments.ExpandedDesktopPreferenceFragment;
 import com.arsenic.settings.fragments.Interface;
 import com.arsenic.settings.fragments.ScreenStateToggles;
 import com.arsenic.settings.fragments.ui.DozeFragment;
+import com.arsenic.settings.fragments.PieSettings;
 
 public class SettingsGateway {
 
@@ -288,6 +290,7 @@ public class SettingsGateway {
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),
             DisplayRotation.class.getName(),
+            PieSettings.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
