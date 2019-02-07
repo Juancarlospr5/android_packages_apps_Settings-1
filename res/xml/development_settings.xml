@@ -88,7 +88,7 @@
             android:summary="@string/oem_unlock_enable_summary"
             settings:useAdditionalSummary="true" />
 
-        <com.arsenic.settings.preferences.SystemSettingSwitchPreference
+        <com.arsenic.support.preferences.SystemSettingSwitchPreference
             android:key="edge_service_for_gestures"
             android:title="@string/edge_gesture_service_title"
             android:summary="@string/edge_gesture_service_summary"
