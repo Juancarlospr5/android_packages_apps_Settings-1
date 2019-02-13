@@ -51,16 +51,6 @@
     <!-- Android debugging over network -->
     <string name="adb_over_network_disallowed_error">ERROR: ADB over network can only be enabled when connected to a Wi\u2011Fi or USB network!</string>
 
-    <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">SystemUI Theme</string>
-    <string name="systemui_theme_style_auto">Automatic (Wallpaper based)</string>
-    <string name="systemui_theme_style_light">Light</string>
-    <string name="systemui_theme_style_dark">Dark</string>
-    <string name="system_theme_style_black">Black</string>
-
-    <string name="applying_theme_toast">Applying theme, please wait...</string>
-    <string name="theme_applied_toast">Theme applied!</string>
-
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
