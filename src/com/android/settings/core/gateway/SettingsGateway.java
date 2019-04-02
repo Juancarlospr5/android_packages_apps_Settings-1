@@ -22,7 +22,6 @@ import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
-import com.android.settings.preference.DisplayRotation;
 import com.android.settings.Settings;
 import com.android.settings.Settings.FlingSettingsActivity;
 import com.android.settings.Settings.NavigationSettingsActivity;
@@ -145,7 +144,6 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.arsenic.settings.ArsenicSettings;
-import com.arsenic.settings.fragments.HeadsUpSettings;
 import com.arsenic.settings.fragments.Buttons;
 import com.arsenic.settings.fragments.Display;
 import com.arsenic.settings.fragments.DozeFragment;
@@ -280,7 +278,6 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             ArsenicSettings.class.getName(),
-            HeadsUpSettings.class.getName(),
             Buttons.class.getName(),
             RunningServices.class.getName(),
             Interface.class.getName(),
@@ -288,7 +285,6 @@ public class SettingsGateway {
             Display.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),
-            DisplayRotation.class.getName(),
             PieSettings.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),

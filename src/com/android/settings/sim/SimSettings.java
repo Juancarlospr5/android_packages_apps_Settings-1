@@ -22,21 +22,27 @@ import static org.lineageos.internal.util.TelephonyExtUtils.NOT_PROVISIONED;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.res.Resources;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.os.SystemProperties;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.support.v4.content.res.TypedArrayUtils;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
+import android.support.v7.preference.PreferenceCategory;
+import android.support.v7.preference.PreferenceManager;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.telecom.PhoneAccount;
@@ -48,12 +54,16 @@ import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
+import android.util.AttributeSet;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.telephony.PhoneConstants;
 import com.android.internal.telephony.TelephonyProperties;
 import com.android.settings.R;
 import com.android.settings.RestrictedSettingsFragment;
@@ -64,6 +74,7 @@ import com.android.settings.search.Indexable;
 import org.lineageos.internal.util.TelephonyExtUtils;
 import org.lineageos.internal.util.TelephonyExtUtils.ProvisioningChangedListener;
 
+import java.lang.NoClassDefFoundError;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -422,9 +433,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
         private CompoundButton mSwitch;
 
         public SimEnablerPreference(Context context, SubscriptionInfo sir, int slotId) {
-            super(context, null, TypedArrayUtils.getAttr(context,
-                    android.support.v7.preference.R.attr.checkBoxPreferenceStyle,
-                    android.R.attr.checkBoxPreferenceStyle), sir, slotId);
+            super(context, sir, slotId);
             setWidgetLayoutResource(R.layout.custom_sim_switch);
         }
 

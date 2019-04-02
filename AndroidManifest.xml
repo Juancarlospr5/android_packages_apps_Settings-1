@@ -3444,7 +3444,7 @@
         <!-- Hide Apps from Recents (HAFR) -->
         <activity android:name="com.arsenic.settings.hideappfromrecents.HAFRAppListActivity" />
 
-        <!-- Heads up settings activity. -->
+        <!-- Heads up settings activity.
         <activity android:name="Settings$HeadsUpSettingsActivity"
                 android:label="@string/heads_up_notifications"
                 android:excludeFromRecents="true">
@@ -3456,7 +3456,7 @@
                 android:value="com.arsenic.settings.fragments.HeadsUpSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
-        </activity>
+        </activity> -->
 
         <!-- Button settings activity. -->
         <activity android:name="Settings$ButtonSettingsActivity"
@@ -3530,7 +3530,7 @@
                 android:value="com.arsenic.settings.fragments.ScreenStateToggles" />
         </activity>
 
-        <!-- Rotation activity. -->
+        <!-- Rotation activity.
         <activity android:name="Settings$RotationActivity"
                 android:label="@string/display_rotation_title"
                 android:excludeFromRecents="true">
@@ -3540,7 +3540,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.preference.DisplayRotation" />
-        </activity>
+        </activity> -->
 
         <!-- Pie settings activity. -->
         <activity android:name="Settings$PieControlSettingsActivity"
